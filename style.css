@@ -1,0 +1,95 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+}
+
+
+header {
+    color: black;
+    border: 50px solid pink;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    background-color: lightyellow;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Silkscreen', cursive;
+
+
+
+}
+
+footer {
+    display: block;
+    color: black;
+    background-color: lightyellow;
+    text-align: center;
+    margin: 50px;
+    border: 50px solid pink;
+    height: 500px;
+
+
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1em 1, 5em;
+    background-color: pink;
+    font-size: xx-small;
+
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navigator {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    border: 20px;
+    margin: 5px;
+    padding: 5px;
+    background-color: grey;
+    border-color: white;
+}
+
+.container {
+
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 200px;
+    border: 1px solid black;
+
+}
+
+.box {
+    width: 50%;
+    background-color: aqua;
+}
+
+
+@media screen and (max-width: 600px) {
+    header {
+        background-color: blue;
+    }
+}
