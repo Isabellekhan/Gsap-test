@@ -1,42 +1,48 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Silkscreen&display=swap"
-        rel="stylesheet">
-</head>
-
-<body>
-    <header>
-        <h1>Mood board</h1>
-        <div class="navigator">
-            <nav>
-                <ul class="list">
-                    <li><a href="https://www.imdb.com/title/tt0113243/">Style inspo</a></li>
-                    <li><a href="background.jpg">makeup inspo</a></li>
-                </ul>
-            </nav>
-        </div>
+  <body>
+    <header class="header">
+      <h1>Mood board</h1>
+      <div class="navigator">
+        <nav>
+          <ul class="list">
+            <li>
+              <a href="https://www.imdb.com/title/tt0113243/">Style inspo</a>
+            </li>
+            <li><a href="background.jpg">makeup inspo</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <footer>
-        <h2>WELCOME</h2>
-        <p> This page is made for you! Get your 90's style inspo from here!
+    <div class="footer">
+      <h2>WELCOME</h2>
+      <p>This page is made for you! Get your 90's style inspo from here!</p>
+      <div class="container>">
+        <div class="box">Dior 90's inpos</div>
+        <div class="box">Balenciaga 90's inpo</div>
+      </div>
+    </div>
 
+    <div class="slider"></div>
 
-        </p>
-        <div class="container>">
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+      integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
-            <div class="box">Dior 90's inpos</div>
-            <div class="box"> Balenciaga 90's inpo</div>
-
-        </div>
-
-    </footer>
-
-</body>
-
+    <script src="app.js"></script>
+  </body>
 </html>
