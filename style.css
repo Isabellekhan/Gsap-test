@@ -46,6 +46,9 @@ ul {
   margin: 0px;
   padding: 0px;
 }
+ul li :hover {
+  background-color: aqua;
+}
 
 * {
   margin: 0px;
@@ -74,8 +77,11 @@ ul {
 }
 
 .box {
-  width: 50%;
+  width: 100%;
   background-color: aqua;
+}
+.box:hover {
+  background-color: pink;
 }
 
 .slider {
